@@ -1,0 +1,41 @@
+{
+  "name": "webpack_ceshi",
+  "version": "0.0.1",
+  "description": "ceshi",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --colors --progress",
+    "dev": "./node_modules/.bin/webpack-dev-server -d --hot",
+    "build:prod": "NODE_ENV='production' ./node_modules/.bin/webpack --config webpack.config.js --colors --progress"
+  },
+  "author": "wang",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.0",
+    "node-sass": "^4.5.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.1",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "vue": "^2.3.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^12.0.2",
+    "vue-template-compiler": "^2.3.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "dependencies": {
+    "vue-html-loader": "^1.2.4",
+    "vue-template-compiler": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  }
+}
